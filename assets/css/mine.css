@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eagle+Lake&family=MedievalSharp&display=swap');
+
+.banner_h2 {
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    letter-spacing: -1px !important;
+}
+
+header {
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none !important;
+    text-decoration: none !important;
+    letter-spacing: -1px !important;
+}
+
+h1,h2 {
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none !important;
+    text-decoration: none !important;
+    letter-spacing: -1px !important;
+}
+
