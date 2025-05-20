@@ -1,53 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+class="landing is-preload"
+
 <head>
-		<title>J&V Precious</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="" />
-		<noscript><link rel="stylesheet" href="../assets/css/main.css" /></noscript>
-	</head>
+  <title>J&V Precious</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/mine.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </noscript>
+</head>
+
 <body>
-  
-    <header>
-    <h1>🍯 Mead & Liquor Tracker</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="planner.html">My Drinks</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="welcome">
-      <h2>Welcome!</h2>
-      <p>Explore handcrafted meads and homemade liquors by our brewing crew.</p>
-      <button id="login-btn">Login / Sign Up</button>
-    </section>
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
 
-    <section id="drink-list">
-      <h2>Recent Creations</h2>
-      <ul>
-        <li>🍒 Cherry Mead</li>
-        <li>🔥 Spiced Whiskey</li>
-        <li>🍋 Lemon Liqueur</li>
-        <!-- More drinks will be added dynamically -->
+    <!--header -->
+    <header id="header" class="alt">
+      <h1>Spectral</h1>
+      <nav id="nav">
+        <ul>
+          <li class="special">
+            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+            <div id="menu">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../drinksgeneral.html">Drinks</a></li>
+                <li><a href="../login.html">Login</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="welcome">
+        <h2>Welcome!</h2>
+        <p>Explore handcrafted meads and homemade liquors by our brewing crew.</p>
+        <button id="login-btn">Login / Sign Up</button>
+      </section>
+
+      <section id="drink-list">
+        <h2>Recent Creations</h2>
+        <ul>
+          <li>🍒 Cherry Mead</li>
+          <li>🔥 Spiced Whiskey</li>
+          <li>🍋 Lemon Liqueur</li>
+          <!-- More drinks will be added dynamically -->
+        </ul>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer id="footer">
+      <ul class="icons">
+        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+        <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
       </ul>
-    </section>
-  </main>
+      <ul class="copyright">
+        <li>&copy; Untitled</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </footer>
 
-  <footer>
-    <p>&copy; 2025 Brew Crew. All rights reserved.</p>
-  </footer>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-  <!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  </div>
 
 </body>
+
 </html>
